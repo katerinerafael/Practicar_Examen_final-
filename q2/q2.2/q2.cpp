@@ -123,3 +123,10 @@ void Inventario::mostrarPorCategoria() const{
     }
 }
 
+double Inventario::calcularValorTotal() const{
+    double total = 0.0;
+        for(const auto& productos.precio : productos){
+            total += productos.precio * productos.catidad;
+        }
+    return total;
+}
