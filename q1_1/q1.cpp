@@ -1,6 +1,6 @@
 #include "q1.h"
 #include <iostream>
-
+#include <stdexcept>
 
 ElectoralDistrict::ElectoralDistrict(const std::string& name, int totalVoters)
     : totalVoters(totalVoters), name(name){
